@@ -24,7 +24,7 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <header class="px-5" role="banner">
+        <header class="px-5" role="banner" id="header">
             <nav class="container navbar navbar-expand pb-5">
                 <ul class="navbar-nav ms-auto py-4 gap-5">
                     <li class="nav-item">
@@ -38,6 +38,9 @@
                     </li>
                 </ul>
             </nav>
+            <figure aria-hidden="true" style="display: none;">
+                <img src="image/background_header.png" alt="Foto de residências da cidade de Pará de Minas, MG.">
+            </figure>
 
             <div class="py-5"></div>
             <div class="container py-5 my-5">
@@ -148,7 +151,14 @@
                             <img src="image/logo.png" alt="Logo de Luís Lima" class="img-fluid">
                         </div>
                         <div class="col-lg-6">
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa sit optio tempora, iure quaerat consequuntur fugit corporis. Illo itaque laborum, saepe facere rem fuga obcaecati ex nemo labore harum maiores nobis nulla laboriosam! Delectus totam iste accusamus, libero nobis mollitia eligendi distinctio. Exercitationem quidem magni perspiciatis molestiae blanditiis error dicta quia! Quam consectetur maiores corporis reiciendis fuga rem. Molestias explicabo sed expedita, esse deserunt, quam, quasi temporibus minima accusamus doloremque molestiae laborum labore nobis modi ea. Dolor accusantium facilis a, necessitatibus error rem dicta placeat inventore sint. Harum, nobis enim ipsa, animi molestiae maxime consequatur sapiente, nesciunt tempore accusamus corporis.</p>
+                            <p>
+                                Profissional com experiência em manutenção de computadores e suporte técnico, 
+                                buscando oportunidades em infraestrutura de TI. Possuo conhecimentos em configuração de sistemas operacionais e redes, 
+                                aliados a um curso técnico em andamento em Informática para Internet.
+                                Estou me especializando no desenvolvimento de sistemas frontend e backend, utilizando tecnologias como PHP, 
+                                MySQL, JavaScript, HTML5 e CSS. Essa experiência tem sido enriquecedora, permitindo-me aplicar conhecimentos 
+                                teóricos em projetos práticos e desenvolver soluções tecnológicas eficazes.
+                            </p>
                         </div>
                     </div>
                 </section>
@@ -163,20 +173,39 @@
                     </div>
                     <div class="row align-items-center">
                         <div class="col-lg-6">
-                            <p class="pb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa sit optio tempora, iure quaerat consequuntur fugit corporis. Illo itaque laborum, saepe facere rem fuga obcaecati ex nemo labore harum maiores nobis nulla laboriosam! Delectus totam iste accusamus, libero nobis mollitia eligendi distinctio. Exercitationem quidem magni perspiciatis molestiae blanditiis error dicta quia! Quam consectetur maiores corporis reiciendis fuga rem. Molestias explicabo sed expedita, esse deserunt, quam, quasi temporibus minima accusamus doloremque molestiae laborum labore nobis modi ea. Dolor accusantium facilis a, necessitatibus error rem dicta placeat inventore sint. Harum, nobis enim ipsa, animi molestiae maxime consequatur sapiente, nesciunt tempore accusamus corporis.</p>
+                            <p class="pb-4">Você está procurando um site de desempenho rápido e fácil de usar para representar 
+                                seu produto ou empresa? Ou quer fazer perguntas? ou tem algum conselho para mim ou apenas quer dizer 
+                                "Oi", em qualquer caso, sinta-se à vontade para me avisar. Farei o meu melhor para responder. 
+                                A maneira mais rápida de entrar em contato comigo é por e-mail.</p>
                             <a href="mailto:lgslima@proton.me" class="btn-email">lgslima@proton.me</a>
                         </div>
                     </div>
                 </section>
             </article>
+
+            <a class="arrow-up" href="#" style="visibility: visible; opacity: 1; transform: scale(1);">
+                <i class="bi bi-arrow-up link-light"></i>
+            </a>
         </main>
 
-        <footer class="text-center">
+        <footer class="text-center d-flex flex-column">
             <hr>
             <div class="container p-5">
+                <div class="d-flex gap-4 flex-column justify-content-center align-items-center">
+                    <div class="d-flex gap-4 mb-4">
+                        <a href="https://github.com/LGSLima" class="link-light"><i class="bi bi-github"></i></a>
+                        <a href="https://www.instagram.com/lgslima0/" class="link-light"><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/lgslima/" class="link-light"><i class="bi bi-linkedin"></i></a>
+                    </div>
 
+                    <p>
+                        &copy; Luís Lima - 2025 | Todos os direitos reservados.
+                    </p>
+                </div>
             </div>
         </footer>
+
+        
 
         <!-- Js bootstrap -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>

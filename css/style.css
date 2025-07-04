@@ -44,6 +44,25 @@ hr {
     border-color: #CCC;
 }
 
+i {
+    font-size: 2rem;
+}
+
+.arrow-up {
+    position: fixed;
+    right: 4rem;
+    bottom: 4rem;
+    border-radius: 50%;
+    background-color: #0093c4;
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    transition: opacity 0.4s ease;
+}
+
 .nav-link {
     font-size: x-large;
     display: inline-block;
@@ -129,7 +148,7 @@ hr {
     display: inline-block;
     padding: 20px 40px;
     color: #ffffff;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     background: transparent;
     border-left: 4px solid #0093c4;
     text-decoration: none;
@@ -158,4 +177,27 @@ hr {
 .img_port {
     border: 1px solid #CCC;
     overflow: hidden;
+    transition: transform 0.4s ease;
+}
+
+.img_port:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.9);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #121212;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000000;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
 }
